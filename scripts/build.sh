@@ -33,7 +33,8 @@ OUT="dist/$NAME-$V.zip"
 TMP=$(mktemp -d "${TMPDIR:-/tmp}/ethics-gate-lite-build.XXXXXX") || fail "cannot make a temporary folder"
 trap 'rm -rf "$TMP"' EXIT
 mkdir "$TMP/plugin"
-git archive --format=tar "$REF" .claude-plugin skills README.md | tar -x -C "$TMP/plugin"
+git archive --format=tar -o "$TMP/plugin.tar" "$REF" .claude-plugin skills README.md || fail "cannot archive the plugin files from $REF"
+tar -x -C "$TMP/plugin" -f "$TMP/plugin.tar"
 if [ "$DEV" = 1 ]; then
   python3 - "$TMP/plugin/.claude-plugin/plugin.json" "$NAME" <<'EOF'
 import json, sys

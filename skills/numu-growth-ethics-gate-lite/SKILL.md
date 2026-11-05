@@ -1,13 +1,13 @@
 ---
 name: numu-growth-ethics-gate-lite
-description: Check your own marketing before you publish it (a landing page, email, ad, social post, offer or proposal). Finds manipulative tactics such as fake urgency, false scarcity, fake testimonials and hidden fees, quotes the exact lines, and works through Numu Growth's public 7-question checklist. Use when someone wants to check their copy for dodgy tactics, asks whether their marketing is honest or fair, or is about to send a campaign.
+description: Check your own work before you send or publish it, such as marketing, a proposal, a client report, a fundraising letter, a policy or a job advert. A self-check that finds manipulative tactics such as fake urgency, false scarcity, fake testimonials and hidden fees, quotes the exact lines and asks seven questions of the text. Use when someone is about to send or publish something (a landing page, an email, an ad, a proposal, a report, an appeal, a policy or a job advert) and wants to check it for dodgy tactics or asks whether it is honest or fair.
 ---
 
 # Numu Growth Ethics Gate Lite
 
-A self-check against Numu Growth's public checklist, version 2.0.
+A self-check that asks seven questions of anything a person is about to send or publish, such as marketing, a proposal, a client report, a fundraising letter, a policy or a job advert.
 
-It reads a person's own marketing, quotes the lines that use a known manipulative tactic, and works through seven questions. It answers what a reading of the text can support. It hands back the questions only the person can answer.
+It reads the person's own work, quotes the lines that use a known manipulative tactic and works through the seven questions. It answers what a reading of the text can support. It hands back the questions only the person can answer.
 
 It's one model's reading of some text. It isn't a review, an audit, a certification or advice.
 
@@ -26,7 +26,7 @@ Follow these in every run, whatever the person asks.
 
 ## How to run it
 
-1. **Get the material.** Ask what's being checked and for the text itself. If you only have a description, ask for the copy. A description can't be checked line by line.
+1. **Get the material.** Ask what's being checked and for the text itself. If you only have a description, ask for the words themselves. A description can't be checked line by line.
 2. **Read all of it**, including small print, buttons, forms and terms.
 3. **Tactics pass.** Go through the 15 tactics below. For each hit, quote the exact line, name the tactic and give the change that would fix it. List each line once, under the tactic that fits it best, and don't stretch a tactic to fit. If a hit is unclear, put it under TO CONFIRM with a question instead of flagging it. A real deadline, a real limit or a sourced claim isn't a tactic.
 4. **Questions 1, 2, 3, 6 and 7.** For each, say what in the text prompted your answer and what would settle it. Don't answer from general impression.
@@ -37,7 +37,7 @@ Follow these in every run, whatever the person asks.
 
 Each tactic has three parts:
 
-- **Looks like:** how it shows up in real copy.
+- **Looks like:** how it shows up in real text.
 - **Isn't:** honest material that looks similar. Don't flag these.
 - **Ask:** the question to put to the person when you can't tell from the text.
 
@@ -199,7 +199,7 @@ Answer only from the text. When the text can't settle a question, say what would
 
 - **Who answers:** this check, from what the text shows or hides.
 - **Can support:** whether the price, terms, conditions, renewal, cancellation and data use are visible, and whether the offer matches what the headline promises.
-- **Can't support:** whether the product is good.
+- **Can't support:** whether what's offered is good.
 - **Settled by:** putting the hidden thing where the reader will see it before they commit.
 
 ### 3. Fairness
@@ -234,7 +234,7 @@ Parties include the customer, competitors, staff, suppliers and the wider commun
 **Am I doing this for the right reasons, not ego or desperation?**
 
 - **Who answers:** this check, from signs in the text only. The intention itself is the person's to know.
-- **Can support:** signs such as pressure out of proportion to the offer, or claims that seem to serve the seller's image more than the reader.
+- **Can support:** signs such as pressure out of proportion to the offer, or claims that seem to serve the sender's image more than the reader.
 - **Can't support:** what the person intends. Say so in the finding.
 - **Settled by:** the person's own honest answer.
 
@@ -243,9 +243,9 @@ Parties include the customer, competitors, staff, suppliers and the wider commun
 **Does this build long-term trust and sustainable growth?**
 
 - **Who answers:** this check, partly, from the text.
-- **Can support:** whether the copy relies on tactics that wear trust down with repeat use, or makes promises that will be hard to keep.
-- **Can't support:** what happens after the sale.
-- **Settled by:** whether the customer would still trust the brand after the second and third contact.
+- **Can support:** whether the text relies on tactics that wear trust down with repeat use, or makes promises that will be hard to keep.
+- **Can't support:** what happens after the reader acts on it.
+- **Settled by:** whether the reader would still trust the sender after the second and third contact.
 
 Questions 4 and 5 are the person's own. A reading of text can't tell whether someone would be proud of their work, or how it will look under the highest standard they hold.
 

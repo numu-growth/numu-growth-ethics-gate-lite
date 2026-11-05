@@ -9,7 +9,7 @@ Use this format for every run. The rules:
 - Write plainly, in short sentences, with no semicolons.
 
 ```
-SELF-CHECK AGAINST NUMU'S PUBLIC CHECKLIST · v2.0
+SELF-CHECK AGAINST NUMU GROWTH'S PUBLIC CHECKLIST · v2.0
 
 LINES TO CHANGE
 1. "[exact quote]"
@@ -41,8 +41,8 @@ Purposes, the law, advertising codes and platform rules. How the work
 was made. This is one model's reading of your text. It will miss
 things and it can be wrong. A person should check every fact in it.
 
-A self-check against Numu's public checklist, v2.0. Not a Numu review.
-A Numu review adds what this can't: a person checks the work and how
+A self-check against Numu Growth's public checklist, v2.0. Not a Numu Growth review.
+A Numu Growth review adds what this can't: a person checks the work and how
 it was made. numugrowth.ai
 ```
 

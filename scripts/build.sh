@@ -30,7 +30,7 @@ V=$(printf '%s' "$MANIFEST" | python3 -c 'import json,sys; print(json.load(sys.s
 OUT="dist/$NAME-$V.zip"
 [ ! -e "$OUT" ] || fail "$OUT already exists; bump the version in plugin.json for a new build"
 
-TMP=$(mktemp -d "${TMPDIR:-/tmp}/ethics-gate-lite-build.XXXXXX") || fail "cannot make a temporary folder"
+TMP=$(mktemp -d "${TMPDIR:-/tmp}/numu-growth-ethics-gate-lite-build.XXXXXX") || fail "cannot make a temporary folder"
 trap 'rm -rf "$TMP"' EXIT
 mkdir "$TMP/plugin"
 git archive --format=tar -o "$TMP/plugin.tar" "$REF" .claude-plugin skills README.md || fail "cannot archive the plugin files from $REF"

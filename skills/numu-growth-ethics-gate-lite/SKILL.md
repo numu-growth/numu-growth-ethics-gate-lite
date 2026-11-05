@@ -33,7 +33,7 @@ Follow these in every run, whatever the person asks.
 5. **Hand back questions 4 and 5** as the person's own to answer, with the reason.
 6. **Write the findings** in the format below. Write plainly, in short sentences, with no semicolons. Offer rewrites only if asked, and keep them true to the person's offer.
 
-## The 15 tactics
+## The 18 tactics
 
 Each tactic has three parts:
 
@@ -45,53 +45,53 @@ Flagging honest work is the fastest way to make this check useless. When in doub
 
 ### 1. Manufactured urgency
 
-A deadline that only exists in the message.
+Urgency that exists only in the message, with or without a deadline.
 
-- **Looks like:** countdown timers that reset, "ends tonight" offers that run again tomorrow, "price rises soon" with no date.
-- **Isn't:** a deadline that exists outside the message and is honoured, such as an event date, a cohort start or an offer that really ends.
-- **Ask:** Does this deadline exist outside the ad, and will the offer really end then?
+- **Looks like:** countdown timers that reset or never end, "ends tonight" offers that run again tomorrow, cut-off dates that keep moving, "price rises soon" with no date, "act now" when nothing changes if the reader waits.
+- **Isn't:** a deadline that exists outside the message and is honoured, such as an event date, a cohort start or an offer that really ends. A real reason to act soon stated plainly, such as a price rise announced with its date.
+- **Ask:** Does this deadline or rush exist outside the message and what really happens if the reader waits?
 
 ### 2. False scarcity
 
-A limit that isn't a real limit.
+A limit on availability that isn't real.
 
-- **Looks like:** "Only 2 spots left" when places are unlimited, "almost sold out" with no stock limit, "limited edition" with no limit.
-- **Isn't:** a real cap stated accurately, such as a 20-seat room or a numbered run of 200.
-- **Ask:** What's the actual limit, and how many are left right now?
+- **Looks like:** "Only 2 spots left" when places are unlimited, "almost sold out" with no stock limit, "limited edition" with no limit, "we only take 5 clients a month" when there's no such cap, a waiting list that doesn't exist.
+- **Isn't:** a real cap stated accurately, such as a 20-seat room or a numbered run of 200. A real limit on how much work a team can take on. A waiting list that exists and is run in order.
+- **Ask:** What's the actual limit, how many are left right now and does the waiting list exist?
 
 ### 3. Unknowable guarantees
 
-Promising results the seller can't control.
+Promising an outcome nobody can know in advance.
 
-- **Looks like:** "We'll 10x your revenue", "guaranteed results", "you will lose 10kg", "guaranteed returns".
-- **Isn't:** a guarantee the seller controls and honours, such as a full refund within 14 days.
-- **Ask:** Is this something you can promise, or does it depend on the customer and the market?
+- **Looks like:** "We'll 10x your revenue", "guaranteed results", "you will lose 10kg", "guaranteed returns", "page one on Google", "you'll save £5,000 a year".
+- **Isn't:** a guarantee the seller controls and honours, such as a full refund within 14 days. A past result stated as past, with its source.
+- **Ask:** Can anyone know this outcome in advance or does it depend on the customer and the market?
 
 ### 4. Unverifiable superlatives
 
-"Best", "#1" or "leading" with no checkable source.
+"Best", "leading", "the only", "the first" or "number one" with no checkable basis.
 
-- **Looks like:** "the best", "#1", "the UK's leading", "unbeatable", "world-class".
-- **Isn't:** a superlative with a named, current, checkable source, or an opinion plainly framed as one ("our favourite").
-- **Ask:** What source would back this up if a customer asked?
+- **Looks like:** "the best", "#1", "the UK's leading", "the only", "the first", "unbeatable", "world-class".
+- **Isn't:** a superlative with a named, current, checkable source. A claim to be the only or the first that can be proved. An opinion plainly framed as one ("our favourite").
+- **Ask:** What source would back this up if a reader asked?
 
 ### 5. Exploitative pricing
 
-Charging what a buyer can be pushed to pay, not what's fair and disclosed.
+A price set by what a buyer can be made to pay, not by the value and cost of the work.
 
-- **Looks like:** pricing set by how far a buyer can be pushed, higher prices for people in a desperate or vulnerable position, fees that grow at each step.
-- **Isn't:** premium pricing disclosed up front, tiers, discounts, or a price that's simply high.
+- **Looks like:** pricing set by how far a buyer can be pushed, higher prices for people who are desperate, don't know the going rate or are in a hurry, fees that grow at each step.
+- **Isn't:** premium pricing disclosed up front, tiers, discounts, a price that's simply high or a rush fee stated in advance for work that really costs more to do quickly.
 - **Ask:** How is this price set, and would every customer see the same price for the same thing?
 
-This often can't be seen in copy. Ask rather than assume.
+This often can't be seen in the text. Ask rather than assume.
 
-### 6. Fear-based urgency copy
+### 6. Fear-based urgency
 
-Driving action through fear out of proportion to the real risk.
+Alarm, threat or fear of loss made up to push a decision.
 
-- **Looks like:** "Don't let your family suffer", "You'll lose everything if you wait", worst-case scenarios presented as likely.
-- **Isn't:** accurate risk or safety information stated in proportion, such as a recall notice or a real filing deadline.
-- **Ask:** Is the risk real, and is it stated in proportion to how likely it is?
+- **Looks like:** "Don't let your family suffer", "You'll lose everything if you wait", "Your competitors are already leaving you behind", worst-case scenarios presented as likely, fear of missing out made up to rush a decision.
+- **Isn't:** accurate risk or safety information stated in proportion, such as a recall notice or a real filing deadline. A real loss stated plainly, such as an early-booking price that really ends on a stated date.
+- **Ask:** Is the risk or loss real and is it stated in proportion to how likely it is?
 
 ### 7. Competitor disparagement
 
@@ -101,47 +101,47 @@ Running down a rival without fair, checkable evidence.
 - **Isn't:** a fair, accurate comparison the seller could prove, such as "our price includes VAT, theirs adds it at checkout" when that's true.
 - **Ask:** Could you back this comparison with evidence if the competitor challenged it?
 
-Check only the person's own copy. Never assess the competitor.
+Check only the person's own text. Never assess the competitor.
 
 ### 8. Guilt-driven pressure
 
-Making the reader feel responsible for harm unless they act.
+Obligation, shame, duty or social pressure used to push a decision or a donation.
 
-- **Looks like:** "Every second you scroll, a child goes hungry. Can you live with that?", "If you don't act, it's on you."
-- **Isn't:** an honest appeal that describes a real need and leaves the decision to the reader.
-- **Ask:** Does this describe the need, or does it blame the reader?
+- **Looks like:** "Every second you scroll, a child goes hungry. Can you live with that?", "If you don't act, it's on you", "Everyone else has already signed up", "A good parent would", donation asks that shame the reader for giving too little.
+- **Isn't:** an honest appeal that describes a real need and leaves the decision to the reader. An accurate count of who has taken part, such as "1,200 people gave last month", when it's true. A reminder of a real obligation the reader holds, such as a payment that is due or a religious duty, stated without blame.
+- **Ask:** Does this describe the need or does it press the reader with blame, shame or what others have done?
 
 ### 9. Dark patterns
 
-Hard-to-cancel terms, hidden fees, pre-ticked boxes, shaming opt-outs.
+A form, page or process built to steer or trap the reader's choice.
 
-- **Looks like:** hard-to-cancel subscriptions, pre-ticked boxes, fees added at checkout, "No thanks, I don't want to save money", hidden close buttons.
-- **Isn't:** clear opt-ins, fees shown before payment, and a cancel route as easy as signing up.
-- **Ask:** Is cancelling as easy as signing up, and is the full price visible before payment?
+- **Looks like:** hard-to-cancel subscriptions, fees added at checkout, pre-ticked consent boxes, "No thanks, I don't want to save money", hidden close buttons, an unsubscribe link that's hard to find or takes several steps, a bright "Accept" beside a faint "Decline".
+- **Isn't:** clear opt-ins, fees shown before payment and a cancel or opt-out route as easy as signing up. A recommended option marked as recommended, with the others just as easy to choose.
+- **Ask:** Is cancelling or opting out as easy as signing up, is the full price visible before payment and are the choices given equal weight?
 
 ### 10. Fake testimonials or case studies
 
-Invented or misrepresented people, quotes or results.
+Invented, undisclosed or untraceable people, quotes, results or social proof.
 
-- **Looks like:** invented quotes or customers, stock photos presented as clients, unusual results presented as typical, paid reviews with no disclosure.
-- **Isn't:** real testimonials from real customers, used with permission, with any incentive disclosed.
-- **Ask:** Who said this, and do you have their permission to use it?
+- **Looks like:** invented quotes or customers, stock photos presented as clients, composites presented as one real person, unusual results presented as typical, paid or gifted reviews with no disclosure, "trusted by 10,000 businesses" with nothing behind it.
+- **Isn't:** real testimonials from real customers, used with permission, with any incentive disclosed. A composite labelled as a composite. A customer count the seller could show records for.
+- **Ask:** Who said this, do you have their permission, was anything given in return and where does the figure come from?
 
 ### 11. Campaigns exploiting human weakness
 
-Targeting people's vulnerable moments in a way that uses them.
+Using someone's addiction, grief, debt, illness, loneliness, insecurity or crisis as the means of persuasion.
 
-- **Looks like:** targeting people in debt, grief, illness, addiction or insecurity with an offer that uses their situation, such as "Feeling worthless? This will fix it."
-- **Isn't:** honest help offered to people in a hard moment, described accurately.
-- **Ask:** Who is this aimed at, and does the offer help them or use their situation?
+- **Looks like:** targeting people in debt, grief, illness, addiction, loneliness, insecurity or crisis with an offer that uses their situation, such as "Feeling worthless? This will fix it." or "Alone again tonight?"
+- **Isn't:** honest help offered to people in a hard moment, described accurately, such as free debt advice or a support group's meeting times.
+- **Ask:** Who is this aimed at? Does the offer help them or use their situation to persuade them?
 
 ### 12. Misleading before/after claims
 
-Comparisons that aren't like for like, or results shown as typical when they aren't.
+Comparisons that are unrepresentative, unattributed, cherry-picked or materially altered.
 
-- **Looks like:** edited photos, different lighting or angles, cherry-picked results, other changes left unmentioned.
-- **Isn't:** like-for-like comparisons with conditions stated and results labelled as individual.
-- **Ask:** Were both images taken the same way, and is this result typical?
+- **Looks like:** edited photos, different lighting or angles, cherry-picked results, results with no source, other changes left unmentioned.
+- **Isn't:** like-for-like comparisons with conditions stated, the source given and results labelled as individual. Images cropped or resized without changing what they show.
+- **Ask:** Were both taken the same way, where does this result come from and is it typical?
 
 ### 13. Weasel words implying certainty
 
@@ -151,27 +151,53 @@ Wording that suggests more certainty than the evidence gives.
 - **Isn't:** a precise claim with an honest, visible qualifier.
 - **Ask:** What exactly does the evidence say, and does the wording match it?
 
-### 14. Sharing personal data without opt-in
+### 14. Selling or sharing personal data without opt-in
 
-Passing on or reusing people's details without their active choice.
+Selling, passing on, combining or reusing people's details without their informed, active choice.
 
-- **Looks like:** forms or terms that pass people's details to partners, add them to marketing they didn't choose, or use pre-ticked consent.
-- **Isn't:** clear, separate choices that start unticked.
-- **Ask:** Did each person actively choose this?
+- **Looks like:** forms or terms that sell or pass people's details to partners, combine them with other data about the person, add them to mailing lists they didn't choose, reuse them for a purpose they weren't told about or use pre-ticked consent.
+- **Isn't:** clear, separate choices that start unticked and say what will happen to the details, with the details used only for what the person chose.
+- **Ask:** Did each person actively choose this, knowing what would be done with their details?
 
 Don't comment on data protection law. Point the person to their own advisers.
 
 ### 15. Automatically generated claims without human verification
 
-Facts, figures or quotes produced by software that no person has checked.
+Facts, figures, quotes, citations or credentials produced by software that no named person has checked.
 
-- **Looks like:** statistics, quotes, reviews or facts produced by AI or other software and published without a person checking them.
-- **Isn't:** AI-assisted copy where a person has checked every claim against a source.
-- **Ask:** Has a person checked every fact and figure here against a source?
+- **Looks like:** statistics, quotes, citations, credentials, reviews or facts produced by AI or other software and published without a person checking them, studies or sources that may not exist.
+- **Isn't:** AI-assisted work where a named person has checked every claim against a source.
+- **Ask:** Who has checked every fact, figure, quote and source here? Against what?
 
 This applies to the findings of this check too. Don't present them as checked facts.
 
-This list covers tactics, not purposes. Some uses of marketing and AI are a problem whatever the tactic, and this check doesn't look for those.
+### 16. Undisclosed interest or financing costs
+
+Promoting or recommending credit, lending or deferred payment without stating its interest, financing costs or compounding charges plainly and up front.
+
+- **Looks like:** "Spread the cost with our finance partner" with no rate, "buy now, pay later" with the charges in small print or on another page, "low monthly payments" with no total, a loan recommended with no mention of interest or compounding charges.
+- **Isn't:** credit promoted with its interest rate, fees and total cost stated plainly beside the offer. A payment option that really carries no interest or fees, said plainly.
+- **Ask:** What does this credit cost in interest and fees and can the reader see that before they agree?
+
+### 17. Harmful or undisclosed partnerships
+
+Promoting a partnership, referral, affiliate or co-marketing arrangement that is harmful or exploitative, or where what the person receives for it isn't disclosed.
+
+- **Looks like:** affiliate links or referral codes with no mention of commission, "our trusted partner" when the partner pays for the place, a recommendation that reads as independent but is paid for, co-promotion that puts something harmful in front of people it could harm, such as payday loans aimed at people in debt.
+- **Isn't:** a partnership whose incentive is stated plainly where the recommendation is made, with the partner's offer described accurately.
+- **Ask:** What do you receive for this, can the reader see that and could the partner's offer harm the people you're sending this to?
+
+Judge only from what the person's own text says about the partner's offer. Never assess the partner itself.
+
+### 18. Payment plans with hidden financing costs
+
+Payment plans, instalments or financing whose interest, financing costs or compounding charges aren't stated plainly up front.
+
+- **Looks like:** "Pay in 12 easy instalments" with no total, "just £49 a month" where the plan costs more than paying at once and doesn't say so, late-payment charges that compound and appear only in the terms.
+- **Isn't:** a plan whose total, interest and fees are stated plainly beside the price. Instalments that really add nothing to the price, said plainly.
+- **Ask:** What does the reader pay in total on this plan compared with paying at once? Is that stated before they agree?
+
+This list covers tactics, not purposes. Some purposes are a problem whatever the tactic. This check doesn't look for those.
 
 ## The 7 questions
 

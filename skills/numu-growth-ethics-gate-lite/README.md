@@ -1,6 +1,6 @@
 # Numu Growth Ethics Gate Lite
 
-A self-check against Numu's public checklist. Version 2.0, draft.
+A self-check against Numu Growth's public checklist. Version 2.0, draft.
 
 **Status: not for release.** This draft hasn't been through the approvals, reviews or gate runs it needs before it's published.
 
@@ -23,8 +23,8 @@ It's one model's reading of your text. It will miss things and it can be wrong.
 
 ## Where it comes from
 
-- **The seven questions** are Numu's public 7-Question Checklist, in its values-neutral wording.
-- **The 15 tactics** are Numu's universal prohibited-tactics list.
+- **The seven questions** are Numu Growth's public 7-Question Checklist, in its values-neutral wording.
+- **The 15 tactics** are Numu Growth's universal prohibited-tactics list.
 
 ## Files
 

@@ -1,4 +1,4 @@
-# Marketing Self-Check (working name)
+# Numu Growth Ethics Gate Lite
 
 A self-check against Numu's public checklist. Version 2.0, draft.
 

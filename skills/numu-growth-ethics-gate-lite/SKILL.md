@@ -1,9 +1,9 @@
 ---
-name: ethics-gate-lite
+name: numu-growth-ethics-gate-lite
 description: Check your own marketing before you publish it (a landing page, email, ad, social post, offer or proposal). Finds manipulative tactics such as fake urgency, false scarcity, fake testimonials and hidden fees, quotes the exact lines, and works through Numu's public 7-question checklist. Use when someone wants to check their copy for dodgy tactics, asks whether their marketing is honest or fair, or is about to send a campaign.
 ---
 
-# Marketing Self-Check
+# Numu Growth Ethics Gate Lite
 
 A self-check against Numu's public checklist, version 2.0.
 

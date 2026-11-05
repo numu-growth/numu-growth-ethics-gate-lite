@@ -1,4 +1,4 @@
-# Marketing Self-Check
+# Numu Growth Ethics Gate Lite
 
 Check your own marketing before you publish it. This plugin adds one skill. It reads a landing page, email, ad, social post, offer or proposal you made, quotes any lines that use a known manipulative tactic such as fake urgency, false scarcity, fake testimonials or hidden fees, and works through Numu's public 7-question checklist. It gives no scores. It isn't a review, an audit, a certification or advice.
 

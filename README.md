@@ -4,7 +4,7 @@
 
 ## What it is
 
-An Agent Skill. It reads your own marketing and gives you three things:
+An Agent Skill. It reads anything you're about to send or publish, such as marketing, a proposal, a client report, a fundraising letter, a policy or a job advert, and gives you three things:
 
 - the lines that use a known manipulative tactic, quoted, with a fix for each
 - what your text shows against seven questions
@@ -21,7 +21,7 @@ It's one model's reading of your text. It will miss things and it can be wrong.
 
 ## How to use it
 
-Ask Claude to check your copy, for example "Check this landing page for dodgy tactics", and paste the text itself. A description can't be checked line by line. The findings list the lines to change, what the text shows against the questions a reading can answer, and the two questions only you can answer.
+Ask Claude to check your text before it goes out, for example "Check this landing page for dodgy tactics", "Is this fundraising letter fair?" or "Check this job advert before I post it" and paste the text itself. A description can't be checked line by line. The findings list the lines to change, what the text shows against the questions a reading can answer, and the two questions only you can answer.
 
 ## Your data
 

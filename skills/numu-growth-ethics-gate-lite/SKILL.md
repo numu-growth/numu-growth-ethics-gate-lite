@@ -269,7 +269,7 @@ Parties include the customer, competitors, staff, suppliers and the wider commun
 **Does this build long-term trust and sustainable growth?**
 
 - **Who answers:** this check, partly, from the text.
-- **Can support:** whether the text relies on tactics that wear trust down with repeat use, or makes promises that will be hard to keep.
+- **Can support:** whether the text relies on tactics that wear trust down with repeat use or makes promises that will be hard to keep.
 - **Can't support:** what happens after the reader acts on it.
 - **Settled by:** whether the reader would still trust the sender after the second and third contact.
 

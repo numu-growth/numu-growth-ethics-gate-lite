@@ -310,7 +310,7 @@ Fairness         [finding]
                  Would be settled by: [what]
 Intention        [signs in the text only. Your intention is yours to know.]
                  Would be settled by: [what]
-Enduring value   [partial reading]
+Enduring value   [finding]
                  Would be settled by: [what]
 
 QUESTIONS FOR YOU

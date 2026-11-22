@@ -1,7 +1,7 @@
 #!/bin/sh
 # Builds the plugin into an installable zip in dist/, which git ignores.
 # Once every check has passed and the zip has validated, dist/ is emptied first, so it only ever holds the zip just built.
-# Usage: scripts/build.sh                      from committed main, level with GitLab: dist/<name>-<version>.zip, and tags main v<version>
+# Usage: scripts/build.sh                      from committed main, level with GitLab: dist/<name>-<version>.zip; tags main v<version>
 #        scripts/build.sh --dev                from the current branch, named <name>-dev: dist/<name>-dev-<version>.zip, never tagged
 #        scripts/build.sh --version <version>  from tag v<version>: dist/<name>-<version>.zip, never tagged
 set -eu

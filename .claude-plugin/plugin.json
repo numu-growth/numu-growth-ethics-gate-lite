@@ -1,7 +1,8 @@
 {
   "name": "numu-growth-ethics-gate-lite",
   "displayName": "Numu Growth Ethics Gate Lite",
-  "version": "2.1.5",
+  "version": "2.1.6",
+  "license": "CC-BY-ND-4.0",
   "description": "Check anything you're about to send or publish, such as marketing, a proposal, a client report, a fundraising letter, a policy or a job advert. A self-check that quotes the lines that use manipulative tactics such as fake urgency or hidden fees and asks seven questions of your text.",
   "author": {
     "name": "Numu Growth",

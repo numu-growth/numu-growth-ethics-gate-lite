@@ -1,7 +1,5 @@
 # Numu Growth Ethics Gate Lite
 
-**Status: not for release.** This draft hasn't been through the approvals, reviews or gate runs it needs before it's published.
-
 ## What it is
 
 An Agent Skill. It reads anything you're about to send or publish, such as marketing, a proposal, a client report, a fundraising letter, a policy or a job advert, and gives you three things:
@@ -29,7 +27,7 @@ This plugin has no code and sends nothing to Numu Growth. The text you check goe
 
 ## Licence
 
-To be decided.
+Creative Commons Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0). You can use and share this plugin, including commercially, as long as you credit Numu Growth and share it unchanged. The full licence is in [LICENSE](LICENSE).
 
 ## Contact
 

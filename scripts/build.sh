@@ -2,6 +2,7 @@
 # Builds the plugin into an installable zip in dist/, which git ignores.
 # The zip holds .claude-plugin, skills and README.md, and LICENSE when the commit built from has one.
 # Once every check has passed and the zip has validated, dist/ is emptied first, so it only ever holds the zip just built.
+# A release or --dev build validates with --strict --profile directory, which adds those of the plugin directory's checks that the CLI runs. A --version rebuild validates with --strict alone, so every tagged version can be rebuilt.
 # Usage: scripts/build.sh                      from committed main, level with GitLab: dist/<name>-<version>.zip; tags main v<version>
 #        scripts/build.sh --dev                from the current branch, named <name>-dev: dist/<name>-dev-<version>.zip, never tagged
 #        scripts/build.sh --version <version>  from tag v<version>: dist/<name>-<version>.zip, never tagged
@@ -66,7 +67,10 @@ with open(path, "w") as f:
 EOF
 fi
 
-claude plugin validate --strict "$TMP/plugin" || fail "validation failed; nothing was written to dist/"
+case $MODE in
+  rebuild) claude plugin validate --strict "$TMP/plugin" ;;
+  *) claude plugin validate --strict --profile directory "$TMP/plugin" ;;
+esac || fail "validation failed; nothing was written to dist/"
 (cd "$TMP/plugin" && zip -qrX "$TMP/plugin.zip" .)
 rm -rf dist
 mkdir dist
@@ -77,5 +81,9 @@ if [ "$NEWTAG" = 1 ]; then
   printf 'TAGGED   %s at %s\n' "$TAG" "$(git rev-parse --short "$COMMIT")"
 fi
 if [ "$MODE" = release ] && [ -z "$REMOTE_TAG" ]; then
-  printf 'PUSH     git push origin %s   (to GitLab only)\n' "$TAG"
+  if git remote get-url github >/dev/null 2>&1; then
+    printf 'PUSH     git push origin %s && git push github %s   (to GitLab and GitHub)\n' "$TAG" "$TAG"
+  else
+    printf 'PUSH     git push origin %s   (to GitLab only)\n' "$TAG"
+  fi
 fi

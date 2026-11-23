@@ -1,7 +1,7 @@
 #!/bin/sh
 # Builds the plugin into an installable zip in dist/, which git ignores.
 # The plugin is the numu-growth-ethics-gate-lite folder. The zip holds its .claude-plugin, skills, README.md and LICENSE.
-# The repository root holds a copy of LICENSE, and the build refuses unless the two copies are the same.
+# The repository root holds a copy of LICENSE and the build refuses unless the two copies are the same.
 # A --version rebuild of a tag from before the plugin had its own folder builds from the repository root, with LICENSE when the tag has one. Release and --dev builds use the plugin folder only.
 # Once every check has passed and the zip has validated, dist/ is emptied first, so it only ever holds the zip just built.
 # A release or --dev build validates with --strict --profile directory, which adds those of the plugin directory's checks that the CLI runs. A --version rebuild validates with --strict alone, so every tagged version can be rebuilt.

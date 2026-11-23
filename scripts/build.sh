@@ -1,6 +1,8 @@
 #!/bin/sh
 # Builds the plugin into an installable zip in dist/, which git ignores.
-# The zip holds .claude-plugin, skills and README.md, and LICENSE when the commit built from has one.
+# The plugin is the numu-growth-ethics-gate-lite folder. The zip holds its .claude-plugin, skills, README.md and LICENSE.
+# The repository root holds a copy of LICENSE, and the build refuses unless the two copies are the same.
+# A --version rebuild of a tag from before the plugin had its own folder builds from the repository root, with LICENSE when the tag has one. Release and --dev builds use the plugin folder only.
 # Once every check has passed and the zip has validated, dist/ is emptied first, so it only ever holds the zip just built.
 # A release or --dev build validates with --strict --profile directory, which adds those of the plugin directory's checks that the CLI runs. A --version rebuild validates with --strict alone, so every tagged version can be rebuilt.
 # Usage: scripts/build.sh                      from committed main, level with GitLab: dist/<name>-<version>.zip; tags main v<version>
@@ -25,7 +27,21 @@ case $MODE in
 esac
 COMMIT=$(git rev-parse -q --verify "$REF^{commit}") || fail "cannot find $REF"
 
-MANIFEST=$(git show "$COMMIT:.claude-plugin/plugin.json" 2>/dev/null) || fail "no .claude-plugin/plugin.json on $REF"
+PLUGIN_DIR=numu-growth-ethics-gate-lite
+if git cat-file -e "$COMMIT:$PLUGIN_DIR/.claude-plugin/plugin.json" 2>/dev/null; then
+  P="$PLUGIN_DIR/"
+  ROOT_LICENSE=$(git rev-parse -q --verify "$COMMIT:LICENSE") || fail "no LICENSE at the repository root on $REF"
+  PLUGIN_LICENSE=$(git rev-parse -q --verify "$COMMIT:${P}LICENSE") || fail "no $PLUGIN_DIR/LICENSE on $REF"
+  [ "$ROOT_LICENSE" = "$PLUGIN_LICENSE" ] || fail "LICENSE and $PLUGIN_DIR/LICENSE differ; make them the same"
+  LICENSE_FILE="${P}LICENSE"
+elif [ "$MODE" = rebuild ] && git cat-file -e "$COMMIT:.claude-plugin/plugin.json" 2>/dev/null; then
+  P=
+  if git cat-file -e "$COMMIT:LICENSE" 2>/dev/null; then LICENSE_FILE=LICENSE; else LICENSE_FILE=; fi
+else
+  fail "no $PLUGIN_DIR/.claude-plugin/plugin.json on $REF"
+fi
+
+MANIFEST=$(git show "$COMMIT:${P}.claude-plugin/plugin.json" 2>/dev/null) || fail "no ${P}.claude-plugin/plugin.json on $REF"
 NAME=$(printf '%s' "$MANIFEST" | python3 -c 'import json,sys; print(json.load(sys.stdin)["name"])') || fail "cannot read the name from plugin.json"
 V=$(printf '%s' "$MANIFEST" | python3 -c 'import json,sys; print(json.load(sys.stdin)["version"])') || fail "cannot read the version from plugin.json"
 [ "$MODE" != rebuild ] || [ "$V" = "$2" ] || fail "plugin.json at tag v$2 gives version $V"
@@ -50,12 +66,12 @@ fi
 
 TMP=$(mktemp -d "${TMPDIR:-/tmp}/numu-growth-ethics-gate-lite-build.XXXXXX") || fail "cannot make a temporary folder"
 trap 'rm -rf "$TMP"' EXIT
-mkdir "$TMP/plugin"
-if git cat-file -e "$COMMIT:LICENSE" 2>/dev/null; then LICENSE_FILE=LICENSE; else LICENSE_FILE=; fi
-git archive --format=tar -o "$TMP/plugin.tar" "$COMMIT" .claude-plugin skills README.md $LICENSE_FILE || fail "cannot archive the plugin files from $REF"
-tar -x -C "$TMP/plugin" -f "$TMP/plugin.tar"
+mkdir "$TMP/tree"
+git archive --format=tar -o "$TMP/plugin.tar" "$COMMIT" "${P}.claude-plugin" "${P}skills" "${P}README.md" $LICENSE_FILE || fail "cannot archive the plugin files from $REF"
+tar -x -C "$TMP/tree" -f "$TMP/plugin.tar"
+PLUGIN="$TMP/tree${P:+/$PLUGIN_DIR}"
 if [ "$MODE" = dev ]; then
-  python3 - "$TMP/plugin/.claude-plugin/plugin.json" "$NAME" <<'EOF'
+  python3 - "$PLUGIN/.claude-plugin/plugin.json" "$NAME" <<'EOF'
 import json, sys
 path, name = sys.argv[1], sys.argv[2]
 with open(path) as f:
@@ -68,10 +84,10 @@ EOF
 fi
 
 case $MODE in
-  rebuild) claude plugin validate --strict "$TMP/plugin" ;;
-  *) claude plugin validate --strict --profile directory "$TMP/plugin" ;;
+  rebuild) claude plugin validate --strict "$PLUGIN" ;;
+  *) claude plugin validate --strict --profile directory "$PLUGIN" ;;
 esac || fail "validation failed; nothing was written to dist/"
-(cd "$TMP/plugin" && zip -qrX "$TMP/plugin.zip" .)
+(cd "$PLUGIN" && zip -qrX "$TMP/plugin.zip" .)
 rm -rf dist
 mkdir dist
 mv "$TMP/plugin.zip" "$OUT"
